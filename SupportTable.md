@@ -15,6 +15,7 @@
 |    |   |   |  |  |   |   |    |
 |**Service**|**Platform**|**Vendor**|**Version**|**Supports IPv6**|**Suports IPv6 only**|**NAT64/DNS64 Present**|**Caveats and Notes**|
 |Github|Web|Microsoft|All|N|N|Y|Some IPv6 support has been reported. GitHub.IO has v6 support but the main site does not.|
+|Fastly CDN|CDN|Fastly|P|P|P|When using an IPv6 only resolver parts of the CDN can not be used as some Fastly Auth. DNS servers don't have IPv6. Example: files.pythonhosted.org used by pip.|
 |Twitter|Web|Twitter|All|N|N|Y| |
 |    |   |   |  |  |   |   |   |
 |---|---|---|---|---|---|---|---|
